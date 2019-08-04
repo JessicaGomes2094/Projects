@@ -22,7 +22,7 @@ def getData(filename):
 
 def sortData(list_data):
     
-	list_data.sort(key=lambda x: x.split()[-1]) 3Sort by last element in list
+	list_data.sort(key=lambda x: x.split()[-1]) #Sort by last element in list
 
  	##list_data.sort(key=lambda x: x.split[1])
  	##list_data.sort(key = lambda x:x.split[0])
