@@ -19,8 +19,8 @@ def sortData(list_data):
 
     list_data.sort(key=lambda x: x.split()[-1])  # Sort By Last Element Of List
 
-    # Sort By Last Element And Then The Next
-    #list_data.sort(key=lambda element: (element[-1], element[0]))
+    # Sort By Last Element And Then The Next (TEST)
+    # List_data.sort(key=lambda element: (element[-1], element[0]))
 
     return list_data
 
